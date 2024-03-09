@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select your component"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/processor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Processor"
+            android:button="@android:color/transparent"
+            android:drawableEnd="@drawable/checkbox_selector"/>
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/mainBoard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Main Board"
+            android:button="@android:color/transparent"
+            android:drawableEnd="@drawable/checkbox_selector"/>
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/ram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RAM"
+            android:button="@android:color/transparent"
+            android:drawableEnd="@drawable/checkbox_selector"/>
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/monitor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Monitor"
+            android:button="@android:color/transparent"
+            android:drawableEnd="@drawable/checkbox_selector"/>
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/keyboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Keyboard"
+            android:button="@android:color/transparent"
+            android:drawableEnd="@drawable/checkbox_selector"/>
+
+
+
+    </LinearLayout>
+</LinearLayout>
