@@ -27,37 +27,46 @@
             android:layout_height="wrap_content"
             android:text="Processor"
             android:button="@android:color/transparent"
-            android:drawableEnd="@drawable/checkbox_selector"/>
+            android:drawableEnd="@drawable/checkbox_selector"
+            android:background="@android:color/transparent"/>
         <com.google.android.material.checkbox.MaterialCheckBox
             android:id="@+id/mainBoard"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Main Board"
             android:button="@android:color/transparent"
-            android:drawableEnd="@drawable/checkbox_selector"/>
+            android:drawableEnd="@drawable/checkbox_selector"
+            android:background="@android:color/transparent"/>
         <com.google.android.material.checkbox.MaterialCheckBox
             android:id="@+id/ram"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="RAM"
             android:button="@android:color/transparent"
-            android:drawableEnd="@drawable/checkbox_selector"/>
+            android:drawableEnd="@drawable/checkbox_selector"
+            android:background="@android:color/transparent"/>
         <com.google.android.material.checkbox.MaterialCheckBox
             android:id="@+id/monitor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Monitor"
             android:button="@android:color/transparent"
-            android:drawableEnd="@drawable/checkbox_selector"/>
+            android:drawableEnd="@drawable/checkbox_selector"
+            android:background="@android:color/transparent"/>
         <com.google.android.material.checkbox.MaterialCheckBox
             android:id="@+id/keyboard"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Keyboard"
             android:button="@android:color/transparent"
-            android:drawableEnd="@drawable/checkbox_selector"/>
+            android:drawableEnd="@drawable/checkbox_selector"
+            android:background="@android:color/transparent"/>
 
 
 
     </LinearLayout>
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 </LinearLayout>
