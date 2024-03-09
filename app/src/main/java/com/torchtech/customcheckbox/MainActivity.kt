@@ -28,14 +28,14 @@ class MainActivity : AppCompatActivity() {
         val display = findViewById<TextView>(R.id.display)
 
         val checkboxChangeListener = CompoundButton.OnCheckedChangeListener { buttonView, isChecked ->
-            when (buttonView.id){
+            val checkBoxText = (buttonView as CheckBox).text.toString()
 
-                R.id.processor -> display.append("Processor\n")
-                R.id.ram -> display.append("Ram\n")
-                R.id.mainBoard -> display.append("Main-board\n")
-                R.id.monitor -> display.append("Monitor\n")
-                R.id.keyboard -> display.append("Keyboard\n")
+            if (isChecked){
 
+                display.append("$checkBoxText \n")
+            } else{
+            val  newText =display.text.toString().replace("$checkBoxText \n","")
+                display.text=newText
             }
         }
 

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
@@ -12,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Select your component"
+        android:text="@string/select_your_component"
         android:layout_marginTop="20dp"/>
 
     <LinearLayout
@@ -25,7 +24,7 @@
             android:id="@+id/processor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Processor"
+            android:text="@string/processor"
             android:button="@android:color/transparent"
             android:drawableEnd="@drawable/checkbox_selector"
             android:background="@android:color/transparent"/>
@@ -33,7 +32,7 @@
             android:id="@+id/mainBoard"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Main Board"
+            android:text="@string/main_board"
             android:button="@android:color/transparent"
             android:drawableEnd="@drawable/checkbox_selector"
             android:background="@android:color/transparent"/>
@@ -41,7 +40,7 @@
             android:id="@+id/ram"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RAM"
+            android:text="@string/ram"
             android:button="@android:color/transparent"
             android:drawableEnd="@drawable/checkbox_selector"
             android:background="@android:color/transparent"/>
@@ -49,7 +48,7 @@
             android:id="@+id/monitor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Monitor"
+            android:text="@string/monitor"
             android:button="@android:color/transparent"
             android:drawableEnd="@drawable/checkbox_selector"
             android:background="@android:color/transparent"/>
@@ -57,16 +56,16 @@
             android:id="@+id/keyboard"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Keyboard"
+            android:text="@string/keyboard"
             android:button="@android:color/transparent"
             android:drawableEnd="@drawable/checkbox_selector"
             android:background="@android:color/transparent"/>
 
-
-
     </LinearLayout>
+
     <TextView
         android:id="@+id/display"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+
 </LinearLayout>
